@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  width: 600px;
+}
+
+.nav_link1 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+Header {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 40px;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  text-decoration-color: #780d9e;
+  text-decoration-thickness: 2.2px;
+  color: white;
+}
+
+#Acerca {
+  color: black;
+  background-color: #780d9e;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.d-block {
+  float: left;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  line-height: 1.5;
+}
+
+form {
+  /* Centrar el formulario en la página */
+  margin: -100 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 371px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid white;
+  background-color: white;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+input[type="form"] {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+}
+
+.Submit {
+  padding: 5px;
+  color: white;
+  font: bold 0.6em "Montserrat" sans-serif;
+  border: 0px solid white;
+  border-radius: 5px;
+  background-color: #780d9e;
+  cursor: pointer;
+  text-align: center;
+  width: 65px;
+}
+
+.email {
+  color: #780d9e;
+}
+a {
+  color: #780d9e;
+}

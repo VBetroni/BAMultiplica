@@ -1,0 +1,208 @@
+/** esto es para hacer comentarios en css*/
+body {
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  height: 1020px;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+/**@media (max-width: 420px) {
+  body {
+    height: 320px;
+    width:320px
+  }
+}*/
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  width: 600px;
+}
+
+.nav_link1 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+Header {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_link {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 40px;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  text-decoration-color: #780d9e;
+  text-decoration-thickness: 2.2px;
+  color: white;
+}
+#Intro-Ediciones {
+  background-color: #00a5c3;
+  color: black;
+  text-transform: uppercase;
+}
+.nav_list {
+  list-style: none;
+}
+
+.carousel-inner {
+  width: 1020px;
+  height: 500px;
+  max-height: 500px;
+  background-color: #000;
+}
+
+section {
+  display: inline-block;
+  width: 1020px;
+}
+/**#carouselExampleIndicators {
+  
+  $carousel-control-color:             $white;
+  $carousel-control-width:             15%;
+  $carousel-control-opacity:           .5;
+  $carousel-control-hover-opacity:     .9;
+  $carousel-control-transition:        opacity .15s ease;
+
+  $carousel-indicator-width:           30px;
+  $carousel-indicator-height:          3px;
+  $carousel-indicator-hit-area-height: 10px;
+  $carousel-indicator-spacer:          3px;
+  $carousel-indicator-opacity:         .5;
+  $carousel-indicator-active-bg:       $white;
+  $carousel-indicator-active-opacity:  1;
+  $carousel-indicator-transition:      opacity .6s ease;
+
+  $carousel-caption-width:             70%;
+  $carousel-caption-color:             $white;
+  $carousel-caption-padding-y:         1.25rem;
+  $carousel-caption-spacer:            1.25rem;
+
+  $carousel-control-icon-width:        2rem;
+
+  $carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+  $carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+  $carousel-transition-duration:       .6s;
+  $carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+}*/
+
+#Menú {
+  background-color: #780d9e;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  line-height: 1.5;
+}
+
+form {
+  /* Centrar el formulario en la página */
+  margin: -100 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+/* fieldset {
+  border: 2px solid white;
+}
+legend {
+  color: white;
+} */
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 371px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid white;
+  background-color: white;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+input[type="form"] {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+}
+
+.Submit {
+  padding: 5px;
+  color: white;
+  font: bold 0.6em "Montserrat" sans-serif;
+  border: 0px solid white;
+  border-radius: 5px;
+  background-color: #780d9e;
+  cursor: pointer;
+  text-align: center;
+  width: 65px;
+}
+
+.email {
+  color: #780d9e;
+}
+a {
+  color: #780d9e;
+}
